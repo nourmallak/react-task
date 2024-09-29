@@ -1,15 +1,12 @@
-import Employees from "./Employees"
-import Footer from "./Footer"
 import Navbar from "./Navbar"
-import Clients from "./Clients"  // Add this import statement
-
+import Pizza from "./Pizza" 
+import Footer from "./Footer"
 export default function App() {
   return (
-    <div>
-      <Navbar />
-      <Employees />
-      <Clients />
-      <Footer />
-    </div>
+    <>
+    <Navbar />
+    <Pizza />
+    <Footer />
+    </>
   )
 }
